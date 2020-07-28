@@ -2,12 +2,12 @@
 import React from 'react';
 import Location from './Location';
 import WeatherData from './WeatherData';
-
+import './styles.css'
 
 //Esto solo es un componente funcional, es el componente mas sencillo
 //Es una constante con una función, no más.
 const WeatherLocation = () => (
-    <div>
+    <div className="weatherLocationCont">
         <Location city={"Saladillo"}/>
         <WeatherData/>
     </div>
