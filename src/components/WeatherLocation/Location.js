@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 
 //La locación llega por parametros 
 //La city que llega es por props, hacemos destructuring 
@@ -13,5 +13,10 @@ const Location = ({ city }) => (
         </h1>
     </div>
 );
+
+Location.propTypes = {
+    city: PropTypes.string.isRequired,
+}
+
 
 export default Location;
