@@ -20,3 +20,4 @@ Location.propTypes = {
 
 
 export default Location;
+
